@@ -5,7 +5,8 @@
 
 /* betty style doc for function main goes there */
 /*
-* main - print the value of n each time the code ir run
+* main - assigns a random number to int n everytime
+* it executes, and prints it.
 * Return - 0 if exited suffescfully, non-zero if otherwise
 */
 int main(void)
@@ -17,15 +18,15 @@ n = rand() - RAND_MAX / 2;
 /* your code goes there */
 if (n > 0)
 {
-printf("n is postive: %d\n", n);
+printf("%d is postive\n", n);
 }
 else if (n == 0)
 {
-printf("n is zero: %d\n", n);
+printf("%d is zero\n", n);
 }
 else if (n < 0)
 {
-printf("n is negative: %d\n", n);
+printf("%d is negative\n", n);
 }
 return (0);
 }
