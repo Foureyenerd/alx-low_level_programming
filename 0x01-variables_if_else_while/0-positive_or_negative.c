@@ -5,10 +5,11 @@
 
 /* betty style doc for function main goes there */
 /*
-* main - assigns a random number to int n everytime
-* it executes, and prints it.
+* main - print and assigns a random number to int n everytime
+* it executes.
 * Return - 0 if exited suffescfully, non-zero if otherwise
 */
+
 int main(void)
 {
 	int n;
@@ -18,7 +19,7 @@ n = rand() - RAND_MAX / 2;
 /* your code goes there */
 if (n > 0)
 {
-printf("%d is postive\n", n);
+printf("%d is positive\n", n);
 }
 else if (n == 0)
 {
